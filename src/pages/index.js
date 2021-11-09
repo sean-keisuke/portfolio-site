@@ -41,6 +41,16 @@ const IndexStyles = styled.div`
   }
   @media screen and (max-width: 640px) {
     padding: 0 17px;
+    .about-me {
+      display: block;
+      .about-me-text-wrapper, .about-me-image {
+        width: 100%;
+        padding: 0px;
+      }
+      img {
+        width: 100%;
+      }
+    }
   }
 `;
 

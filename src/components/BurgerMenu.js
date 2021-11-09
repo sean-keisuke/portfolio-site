@@ -29,8 +29,8 @@ const StyledBurger = styled.button`
   .burger-icon-item {
     width: 2rem;
     height: ${({ open }) => (open ? "0.1rem" : "3px")};
-    background-color: ${({ open, props }) =>
-      open ? (props) => props.theme.text.lightest : props.theme.text.darkest};
+    background-color: ${({ open }) =>
+      open ?  "white" : "black"};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

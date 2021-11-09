@@ -14,6 +14,7 @@ const StyledBurger = styled.button`
   width: 4rem;
   height: ${({ open }) => (open ? "4rem" : "2rem")};
   border: none;
+  border-radius: 6px;
   cursor: pointer;
   padding: 0;
   z-index: 10;
@@ -28,7 +29,8 @@ const StyledBurger = styled.button`
   .burger-icon-item {
     width: 2rem;
     height: ${({ open }) => (open ? "0.1rem" : "3px")};
-    background-color: ${(props) => props.theme.text.darkest};
+    background-color: ${({ open, props }) =>
+      open ? (props) => props.theme.text.lightest : props.theme.text.darkest};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

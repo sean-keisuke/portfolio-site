@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Header, Footer } from "../components";
 import CovidAppScreenshot1 from "../images/covid-tracker-app/CovidHistoryPage.png";
 import CovidAppScreenshot2 from "../images/covid-tracker-app/CovidStatusPage.png";
-import CovidAppScreenshot3 from "../images/covid-tracker-app/CovidTrackerApp.png";
+import CovidAppScreenshot3 from "../images/covid-tracker-app/HomescreenWHistoryButton.png";
 import CovidAppScreenshot4 from "../images/covid-tracker-app/SplashScreenWithPhone.png"
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import IndividualProject from "./IndividualProject";
-import CovidTrackerImg from "../images/Projects/CovidTrackerApp.png"
+import CovidTrackerImg from "../images/Projects/covid-tracker-logo.png"
 
 const Styles = styled.div`
   .featured-projects-wrapper {

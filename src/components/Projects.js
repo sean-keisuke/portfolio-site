@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import IndividualProject from "./IndividualProject";
-import CovidTrackerImg from "../images/Projects/covid-tracker-logo.png"
+import CovidTrackerImg from "../images/Projects/covid-tracker-logo.png";
 
 const Styles = styled.div`
   .featured-projects-wrapper {
@@ -15,6 +15,12 @@ const Styles = styled.div`
     margin: 0 0 30px;
     padding: 16px;
     font-size: 48px;
+  }
+
+  @media screen and (max-width: 640px) {
+    .featured-projects-wrapper {
+      padding: 0;
+    }
   }
 `;
 

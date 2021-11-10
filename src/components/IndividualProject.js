@@ -5,10 +5,6 @@ import { Link } from "gatsby";
 
 const Styles = styled.div`
   padding: 10px 0;
-
-  .featured-projects-wrapper {
-    padding: 0 64px;
-  }
   .featured-project-container {
     display: flex;
     border-radius: 10px;
@@ -70,13 +66,23 @@ const Styles = styled.div`
     transition: 0.5s;
   }
   @media screen and (max-width: 640px) {
+    h3,
+    p {
+      text-align: center;
+    }
+    .featured-projects-wrapper {
+      padding: 0;
+    }
     .featured-project-container {
       display: block;
     }
     .project-image-container,
     .project-description {
       width: 100%;
-      padding: 17px;
+      padding: 0 0 24px;
+    }
+    img {
+      height: auto;
     }
   }
 `;

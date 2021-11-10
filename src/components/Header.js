@@ -6,7 +6,7 @@ import MenuModal from "./MenuModal";
 
 const links = [
   { text: "Home", link: "/", gatsbyLink: true },
-  { text: "Projects", link: "/projects", gatsbyLink: true},
+  { text: "Projects", link: "/projects", gatsbyLink: true },
   {
     text: "Linkedin",
     link: "https://www.linkedin.com/in/sean-mullarkey-25b07b205/",
@@ -20,7 +20,7 @@ const links = [
 ];
 
 const StyledHeader = styled.header`
-  padding: 28px 75px;
+  padding: 36px 75px 10px;
 
   .navigation-bar {
     display: flex;
@@ -36,20 +36,18 @@ const StyledHeader = styled.header`
     gap: 10px 16px;
     padding: 0px 10px;
   }
-  .navigation-bar p {
+  .navigation-bar a {
     font-weight: 700;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     color: ${(props) => props.theme.text.light};
     transition: color 0.3s ease-in-out;
-  }
-  .navigation-bar a {
     text-decoration: none;
   }
 
-  .navigation-bar p:hover {
+  .navigation-bar a:hover {
     color: ${(props) => props.theme.text.lighter};
   }
 
@@ -68,7 +66,7 @@ const StyledHeader = styled.header`
 `;
 
 const activeStyles = {
-  textDecoration: "underline",
+  color: "black"
 };
 
 export default function Header() {
@@ -85,7 +83,7 @@ export default function Header() {
             <li key={text}>
               {gatsbyLink && (
                 <Link to={link} activeStyle={activeStyles}>
-                  <p>{text}</p>
+                  {text}
                 </Link>
               )}
               {!gatsbyLink && (
@@ -94,7 +92,7 @@ export default function Header() {
                   target={target ? "_blank" : ""}
                   rel="noopener noreferrer"
                 >
-                  <p>{text}</p>
+                  {text}
                 </a>
               )}
             </li>

@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider, css, createGlobalStyle } from "styled-components";
 import PropTypes from "prop-types";
-import backgroundImg from "../images/background-img.jpeg"
+import backgroundImg from "../images/background-img.jpeg";
 
 const GlobalStyle = createGlobalStyle`
   body {

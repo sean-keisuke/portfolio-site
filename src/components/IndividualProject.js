@@ -37,6 +37,8 @@ const Styles = styled.div`
   }
   img {
     width: 100%;
+    object-fit: cover;
+    height: 300px;
   }
   .read-more-anchor {
     text-decoration: none;
@@ -51,11 +53,21 @@ const Styles = styled.div`
     color: ${(props) => props.theme.text.darkest};
     padding: 21px 34px;
     text-align: center;
-    transition: background 0.1s ease-in, color 0.1s ease-in;
+    transition: all 0.5s;
+    cursor: pointer;
   }
   .read-more-button:hover {
     color: ${(props) => props.theme.text.lightest};
     background: ${(props) => props.theme.button};
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .read-more-button:after {
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
   }
   @media screen and (max-width: 640px) {
     .featured-project-container {
@@ -90,9 +102,7 @@ export default function IndividualProject({
         </div>
         <div className="project-description">
           <h3>{projectTitle}</h3>
-          <p className="project-description-text">
-            {projectDescription}&nbsp;
-          </p>
+          <p className="project-description-text">{projectDescription}&nbsp;</p>
           {buttonText && (
             <Link to={writeupLink} className="read-more-anchor">
               <div className="read-more-button">{buttonText}</div>

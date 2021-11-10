@@ -19,10 +19,14 @@ const GlobalStyle = createGlobalStyle`
 
   h1 {
     font-size: 48px;
+    font-family: "Bebas Neue";
+    letter-spacing: 8px;
   }
 
   h2 {
     font-size: 40px;
+    font-family: "Bebas Neue";
+    letter-spacing: 4px;
   }
 
   h3 {

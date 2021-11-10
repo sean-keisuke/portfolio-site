@@ -72,7 +72,7 @@ const IndexPage = () => {
             <p>
               After graduating from Boise State University, Sean has had the
               pleasure to work for various clients as an employee of{" "}
-              <a href="https://www.zerrtech.com" target="_blank">
+              <a href="https://www.zerrtech.com" target="_blank" rel="noreferrer">
                 Zerrtech
               </a>{" "}
               as a Web/Software Developer.

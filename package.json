@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/bebas-neue": "^4.5.0",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^4.1.1",
     "gatsby-plugin-image": "^2.1.0",

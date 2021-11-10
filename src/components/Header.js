@@ -37,8 +37,7 @@ const StyledHeader = styled.header`
     padding: 0px 10px;
   }
   .navigation-bar a {
-    font-weight: 700;
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
     font-size: 16px;
     text-transform: uppercase;

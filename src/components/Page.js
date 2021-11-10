@@ -2,7 +2,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import "normalize.css";
-import SEO from "./SEO";
+import Seo from "./Seo";
 import Theme from "./Theme";
 
 const StyledPage = styled.div`
@@ -13,7 +13,7 @@ const StyledPage = styled.div`
 export default function Page({ children }) {
   return (
     <Theme>
-      <SEO title="Sean Mullarkey" description="Portfolio for Sean Mullarkey" />
+      <Seo title="Sean Mullarkey" description="Portfolio for Sean Mullarkey" />
       <title>Sean Mullarkey</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link

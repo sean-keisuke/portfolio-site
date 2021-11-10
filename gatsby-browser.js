@@ -1,6 +1,7 @@
 import React from "react";
 import { element as _element } from "prop-types";
 import { Page } from "./src/components";
+import "@fontsource/bebas-neue"
 
 // Logs when the client route changes
 export function onRouteUpdate({ location, prevLocation }) {

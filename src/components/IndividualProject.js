@@ -60,7 +60,7 @@ const Styles = styled.div`
     color: ${(props) => props.theme.text.lightest};
     background: ${(props) => props.theme.button};
     padding-right: 24px;
-    padding-left:8px;
+    padding-left: 8px;
   }
   .read-more-button:after {
     position: absolute;

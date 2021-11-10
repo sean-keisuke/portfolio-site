@@ -113,6 +113,7 @@ const CovidTrackerProjectPage = () => (
           <a
             href="https://github.com/sean-keisuke/Covid-Tracker-App/"
             target="_blank"
+            rel="noreferrer"
           >
             <span>Github Repository for project</span>
           </a>

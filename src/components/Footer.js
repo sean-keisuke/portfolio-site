@@ -29,10 +29,15 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/sean-mullarkey-25b07b205/"
           target="_blank"
+          rel="noreferrer"
         >
           linkedin
         </a>
-        <a href="https://github.com/sean-keisuke" target="_blank">
+        <a
+          href="https://github.com/sean-keisuke"
+          target="_blank"
+          rel="noreferrer"
+        >
           github
         </a>
       </div>

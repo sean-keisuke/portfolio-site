@@ -1,12 +1,12 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import BurgerMenu from "./BurgerMenu";
 import MenuModal from "./MenuModal";
 
 const links = [
   { text: "Home", link: "/", gatsbyLink: true },
+  { text: "Projects", link: "/projects", gatsbyLink: true},
   {
     text: "Linkedin",
     link: "https://www.linkedin.com/in/sean-mullarkey-25b07b205/",

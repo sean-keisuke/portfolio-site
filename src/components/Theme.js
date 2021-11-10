@@ -45,6 +45,7 @@ const theme = {
   secondary: "",
   background: css`hsl(0, 0%, 100%)`,
   burgerIconBackground: `hsl(0, 0%, 12%)`,
+  white: css`hsl(0, 0%, 100%)`,
 
   text: {
     lightest: css`hsl(0, 0%, 93%)`,

@@ -73,7 +73,7 @@ const CovidTrackerProjectPage = () => (
           Because we were in a pandemic I decided to create an app that
           communicates with an API that gives me daily covid statistics based on
           location by state{" "}
-          <a href="https://api.covidtracking.com/" target="_blank">
+          <a href="https://api.covidtracking.com/" target="_blank" rel="noreferrer">
             (covid tracker API)
           </a>
           . This API allows us to track the progress of covid across the United

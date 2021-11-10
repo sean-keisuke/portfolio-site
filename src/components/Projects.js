@@ -10,10 +10,11 @@ const Styles = styled.div`
   .featured-project-container {
     background: white;
   }
-  h2 {
+  h1 {
     text-align: center;
     margin: 0 0 30px;
     padding: 16px;
+    font-size: 48px;
   }
 `;
 
@@ -42,7 +43,7 @@ const projects = [
 export default function Projects() {
   return (
     <Styles>
-      <h2>Featured Projects</h2>
+      <h1>Featured Projects</h1>
       <div className="featured-projects-wrapper">
         {projects.map((project) => (
           <IndividualProject

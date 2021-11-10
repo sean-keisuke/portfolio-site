@@ -36,6 +36,7 @@ const StyledHeader = styled.header`
     gap: 10px 16px;
     padding: 0px 10px;
   }
+  
   .navigation-bar a {
     font-weight: bold;
     font-style: normal;

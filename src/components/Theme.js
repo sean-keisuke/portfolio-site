@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { ThemeProvider, css, createGlobalStyle } from "styled-components";
 import PropTypes from "prop-types";
 import backgroundImg from "../images/background-img.jpeg";

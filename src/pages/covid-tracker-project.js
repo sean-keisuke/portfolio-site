@@ -90,7 +90,6 @@ const CovidTrackerProjectPage = () => (
           <ul>
             <li>Current Covid Positive/Death Rates given by state</li>
             <li>View Daily history of Covid Stats by any given state</li>
-            <li>View Daily history of Covid Stats by any given state</li>
             <ul>
               <li>Which Vaccine was received</li>
               <li>Which Dosage</li>

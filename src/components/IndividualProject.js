@@ -33,7 +33,7 @@ const Styles = styled.div`
   }
   img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     height: 300px;
   }
   .read-more-anchor {

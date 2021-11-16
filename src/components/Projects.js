@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import IndividualProject from "./IndividualProject";
 import CovidTrackerImg from "../images/Projects/covid-tracker-logo.png";
+import MusicJudgeImg from "../images/Projects/music-judge-bot.png";
 
 const Styles = styled.div`
   .featured-projects-wrapper {
@@ -33,6 +34,15 @@ const projects = [
     imageName: "covid-tracker-app",
     imageSrc: CovidTrackerImg,
     writeupLink: "/covid-tracker-project",
+  },
+  {
+    projectTitle: "Music Judge Discord Bot",
+    projectDescription:
+      "During the my final semester at Boise State University, a team of 3 including myself designed a discord bot that would play music from spotify and judge you for your musical taste based on the song's popularity.",
+    buttonText: "READ MORE ABOUT THE MUSIC JUDGE PROJECT",
+    imageName: "music-judge-discord-app",
+    imageSrc: MusicJudgeImg,
+    writeupLink: "/music-judge-bot",
   },
   // {
   //   projectTitle: "Vacasa Executive Dashboard",

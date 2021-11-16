@@ -17,6 +17,11 @@ const links = [
     link: "https://github.com/sean-keisuke",
     target: true,
   },
+  {
+    text: "Instagram",
+    link: "https://www.instagram.com/sean.keisuke/",
+    target: true,
+  }
 ];
 
 const StyledHeader = styled.header`

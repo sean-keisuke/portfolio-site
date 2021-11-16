@@ -44,16 +44,6 @@ const projects = [
     imageSrc: MusicJudgeImg,
     writeupLink: "/music-judge-bot",
   },
-  // {
-  //   projectTitle: "Vacasa Executive Dashboard",
-  //   projectDescription:
-  //     "We created an Executive Dashboard for Vacasa to visualize their critical Key Performance Indicators (KPI) across the entire company.  We used React along with D3.js to create dynamic data visualizations using charts and maps.",
-  //   buttonText: "READ MORE ABOUT THE VACASA PROJECT",
-  //   imageName: "vacasa-map",
-  //   imageLink: "/vacasa-executive-dashboard",
-  //   writeupPrompt: "See our full Vacasa Executive Dashboard writeup.",
-  //   writeupLink: "/vacasa-executive-dashboard",
-  // },
 ];
 
 export default function Projects() {

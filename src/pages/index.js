@@ -68,6 +68,9 @@ const IndexStyles = styled.div`
         width: 100%;
       }
     }
+    .skillset-wrapper {
+      display: block;
+    }
   }
 `;
 

@@ -8,13 +8,15 @@ const Styles = styled.div`
     justify-content: center;
 }
   }
-  a {
+  a, span {
     font-weight: 500;
     font-size: 10px;
     text-transform: uppercase;
     padding: 10px;
-    text-decoration: none;
     color: ${(props) => props.theme.text.light};
+  }
+  a {
+    text-decoration: none;
     transition: color 0.3s ease-in-out;
   }
   a:hover {
@@ -26,6 +28,7 @@ export default function Footer() {
   return (
     <Styles>
       <div className="footer-wrapper">
+        <span>Email: sean.keisuke@gmail.com</span>
         <a
           href="https://www.linkedin.com/in/sean-mullarkey-25b07b205/"
           target="_blank"

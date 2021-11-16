@@ -9,9 +9,12 @@ const IndexStyles = styled.div`
     font-size: 48px;
   }
   h2 {
+    text-align: center;
     font-size: 34px;
     cursor: pointer;
-    transition: color 0.3s ease-in-out;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
   }
   h2:hover {
     color: ${(props) => props.theme.text.light};
